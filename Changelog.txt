@@ -1,4 +1,7 @@
 /*
+ * [2024-06-24 Update by MariusGr]
+ * - Establish Unity Package structure
+
  * [2012-06-09 First Version]
  * - provides strongly typed node classes and lists / dictionaries
  * - provides easy access to class members / array items / data values
