@@ -1,5 +1,5 @@
 {
-    "name": "SimpleJSON.Runtime",
+    "name": "SimpleJSON",
     "rootNamespace": "SimpleJSON",
     "references": [],
     "includePlatforms": [],
