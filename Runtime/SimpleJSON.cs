@@ -173,6 +173,19 @@ namespace SimpleJSON
 
         public virtual JSONNode this[string aKey] { get { return null; } set { } }
 
+        public virtual JSONNode Get(string aKey)
+        {
+            try
+            {
+                return this[aKey];
+            }
+            catch (KeyNotFoundException)
+            {
+                UnityEngine.Debug.LogError("Key not found: " + aKey);
+                return null;
+            }
+        }
+
         public virtual string Value { get { return ""; } set { } }
 
         public virtual int Count { get { return 0; } }
