@@ -41,7 +41,7 @@
 #endregion License and information
 using UnityEngine;
 
-namespace SimpleJSON
+namespace SimpleJSONStandalone
 {
     public enum JSONContainerType { Array, Object }
 	public partial class JSONNode

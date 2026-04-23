@@ -38,7 +38,7 @@
 
 #endregion License and information
 
-namespace SimpleJSON
+namespace SimpleJSONStandalone
 {
     using System.Globalization;
     using System.Collections.Generic;
